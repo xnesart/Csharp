@@ -22,11 +22,8 @@ public class SummOddAndEven
             {
                 odd += b;
             }
-    
-            // count += $"{b}";
             userEnterValue = userEnterValue / 10;
         }
-
         if (odd > even)
         {
             Console.WriteLine($"Сумма нечётных чисел {odd}");
@@ -35,10 +32,6 @@ public class SummOddAndEven
         {
             Console.WriteLine($"Сумма чётных чисел {even}"); 
         }
-
-
         Console.ReadLine();
-
-
     }
 }

@@ -1,38 +1,28 @@
-﻿// вывести количество чисел от 1 до N, сумма чётных которых должна быть больше суммы нечётных
-Console.WriteLine("Введите число");
-int userEnterValue = Convert.ToInt32(Console.ReadLine());
-int b = 0;
-string count = "";
-int even = 0;
-int odd = 0;
+﻿//Пользователь вводит целое положитиельное число, которое является кубом целого числа N, найти N методом половинного деления
 
-while (userEnterValue > 0)
+Console.WriteLine("введите число A");
+int a = Convert.ToInt32(Console.ReadLine());
+int n = a * a * a;
+int leftBorder = 0;
+int rightBorder = 300000;
+int middle = 0;
+int c = 0;
+
+while (c != n && c >= 0)
 {
-    b = userEnterValue % 10;
-    if (b % 2 == 0)
+    middle = (rightBorder + leftBorder) / 2;
+    c = middle;
+
+    if (middle > n)
     {
-        even += b;
+        rightBorder = middle;
     }
     else
     {
-        odd += b;
+        leftBorder = middle;
     }
-    
-    // count += $"{b}";
-    userEnterValue = userEnterValue / 10;
 }
+Console.WriteLine(c);
 
-if (odd > even)
-{
-    Console.WriteLine($"Сумма нечётных чисел {odd}");
-}
-else
-{
-    Console.WriteLine($"Сумма чётных чисел {even}"); 
-}
 
-// int final = 0;
-// final = Convert.ToInt32(count);
-// Console.WriteLine(final);
 Console.ReadLine();
-    

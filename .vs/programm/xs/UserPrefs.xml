@@ -1,14 +1,11 @@
 ﻿<Properties StartupConfiguration="{F2F8E2D6-B07B-409B-A803-963E8AE27E98}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.programm PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="programm/Program.cs">
     <Files>
-      <File FileName="programm/Program.cs" Line="12" Column="10" />
-      <File FileName="programm/Classes/FindOddValuesOfNumber.cs" Line="11" Column="37" />
+      <File FileName="programm/Program.cs" Line="12" Column="27" />
+      <File FileName="programm/Classes/FindOddValuesOfNumber.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,4 +23,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

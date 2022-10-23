@@ -16,7 +16,6 @@ public class RevertValue
             count += $"{b}";
             userEnterValue = userEnterValue / 10;
         }
-
         int final = 0;
         final = Convert.ToInt32(count);
         Console.WriteLine(final);
