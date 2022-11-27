@@ -1,29 +1,39 @@
 ﻿<Properties StartupConfiguration="{F2F8E2D6-B07B-409B-A803-963E8AE27E98}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.programm PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="programm/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="programm/Classes/MyClass.cs">
     <Files>
-      <File FileName="programm/Program.cs" Line="12" Column="27" />
-      <File FileName="programm/Classes/FindOddValuesOfNumber.cs" Line="11" Column="1" />
+      <File FileName="programm/Classes/FindOddValuesOfNumber.cs" />
+      <File FileName="programm/Classes/CompareNumbers.cs" />
+      <File FileName="programm/Classes/halfDivision.cs" />
+      <File FileName="programm/Classes/Нахождение Nго числа ряда фибоначи.cs" />
+      <File FileName="programm/Program.cs" Line="188" Column="28" />
+      <File FileName="programm/Classes/SummEvenOrSummOdd.cs" Line="9" Column="39" />
+      <File FileName="programm/Classes/RevertValue.cs" />
+      <File FileName="programm/Classes/SummOddAndEven.cs" />
+      <File FileName="programm/Classes/ArrayMin.cs" Line="9" Column="1" />
+      <File FileName="programm/Classes/MyClass.cs" Line="23" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="programm" expanded="True">
             <Node name="programm" expanded="True">
-              <Node name="Classes" expanded="True" />
+              <Node name="Classes" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>i</Value>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

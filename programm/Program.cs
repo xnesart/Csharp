@@ -1,28 +1,15 @@
-﻿//Пользователь вводит целое положитиельное число, которое является кубом целого числа N, найти N методом половинного деления
+﻿//Сделать реверс массива (массив в обратном направлении)
 
-Console.WriteLine("введите число A");
-int a = Convert.ToInt32(Console.ReadLine());
-int n = a * a * a;
-int leftBorder = 0;
-int rightBorder = 300000;
-int middle = 0;
-int c = 0;
+int[] array = new int[] { 10, 11, 5, 23, 11 };
+int[] arrayReverse = new int[array.Length];
+int temp = array.Length - 1;
 
-while (c != n && c >= 0)
+
+for (int i = array.Length - 1; i >= 0; i--)
 {
-    middle = (rightBorder + leftBorder) / 2;
-    c = middle;
+    arrayReverse[temp] = array[i];
+    temp--;
+    Console.WriteLine(arrayReverse[i]);
 
-    if (middle > n)
-    {
-        rightBorder = middle;
-    }
-    else
-    {
-        leftBorder = middle;
-    }
 }
-Console.WriteLine(c);
-
-
 Console.ReadLine();

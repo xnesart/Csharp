@@ -6,7 +6,7 @@ public class SummEvenOrSummOdd
     {
         // вывести количество чисел от 1 до N, сумма чётных которых должна быть больше суммы нечётных
         Console.WriteLine("Введите число");
-        int userEnterValue = Convert.ToInt32(Console.ReadLine());
+        int userEnterValue = int.Parse(Console.ReadLine());
         int b = 0;
         string count = "";
         int even = 0;
@@ -25,16 +25,17 @@ public class SummEvenOrSummOdd
                 odd += i;
                 oddCount++;
             }
-            count += $"{i}";
+            count += $" {i}";
         }
         Console.WriteLine(count);
 
         if (odd > even)
         {
             Console.WriteLine($"Сумма нечётных чисел {odd}");
-        } else
+        }
+        else
         {
-            Console.WriteLine($"Сумма чётных чисел {even}"); 
+            Console.WriteLine($"Сумма чётных чисел {even}");
         }
 
         Console.WriteLine($"Чётные числа {evenCount}");
